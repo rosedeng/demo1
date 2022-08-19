@@ -56,7 +56,7 @@ app.post('/getuser',(req,res)=>{
 })
 
 
-app.listen('8080',()=>{
+app.listen('3000',()=>{
     console.log('服务器启动成功啦。。。。。')
-    console.log('http://localhost:8080')
+    console.log('http://192.168.43.150:3000')
 })
